@@ -8,6 +8,12 @@ tasks:
   - init: npm install && npm run build
     command: npm run start
 
-settings:
+vscode:
+  extensions:
+    - gitpod.gitpod-extension
+  tasks:
+    - init: echo "Replace me with a build script for the project."
+    - command: echo "Replace me with something that should run on every start-up."
+  settings:
     gitpod.sidebar.visible: true
     gitpod.toolbar.visible: true
